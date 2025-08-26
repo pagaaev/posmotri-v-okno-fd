@@ -222,6 +222,7 @@ ol {
   gap: 5px;
   width: fit-content;
   cursor: pointer;
+  padding: 2px 3px;
 }
 
 .search-form__label-text {
@@ -252,7 +253,6 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  padding: 2px;
   border: 1px solid #FFF;
 }
 
