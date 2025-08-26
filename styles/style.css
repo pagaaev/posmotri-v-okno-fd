@@ -280,11 +280,6 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label:has(.search-form__checkbox:focus-visible),
-.search-form__label:has(.search-form__checkbox:checked) {
-  border: 1px solid #fff;
-}
-
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
