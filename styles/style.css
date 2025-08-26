@@ -76,6 +76,10 @@ ol {
 .content__list-container {
   height: 298px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-right: 3px;
 }
 
 .content__details {
@@ -101,13 +105,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-  padding-right: 3px;
 }
 
 .content__video-card {
